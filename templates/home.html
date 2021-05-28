@@ -1,0 +1,39 @@
+<html>
+
+    <head>
+
+    </head>
+
+    <body style='background-color:blue'>
+
+        <h1> Calculate the compound interest of your investments </h1>
+        <table>
+            <td>
+                <center>
+        <div class='form'>
+            <form method='POST', action='', style=text-align:center , >
+                <h4>
+                {{ form.hidden_tag() }}
+                {{ form.deposit.label }} {{form.deposit}} &emsp; &emsp;&emsp;&emsp;&ensp;&emsp;&ensp;
+                {{ form.interest.label }}  {{form.interest}}&emsp; &emsp;&emsp;
+                <br>
+                
+            </h4>
+                
+                {{ form.submit }}
+                
+                <p>
+               
+            </p>
+                
+        
+            </form>
+        
+        </div>
+        </td>
+        </table>
+        </center>
+
+    </body>
+
+</html>
